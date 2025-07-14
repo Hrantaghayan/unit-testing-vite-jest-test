@@ -452,3 +452,56 @@ expect(fn).toThrow("error message");
  #   u n i t - t e s t i n g - v i t e - t e s t - j e s t  
  #   u n i t - t e s t i n g - v i t e - j e s t - t e s t  
  
+
+---
+
+## Navigation Commands
+
+To navigate to the three directories in the code folder, use these `cd` commands:
+
+### Frontend Directory
+``bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-frontend"
+``
+
+### Node.js Directory  
+``bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs"
+``
+
+### ES Modules Directory
+``bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs-esmodules"
+``
+
+### Quick Navigation in PowerShell
+You can also create shortcuts by adding these functions to your PowerShell profile:
+
+``powershell
+# Add to your PowerShell profile ($PROFILE)
+function go-frontend { 
+    cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-frontend" 
+}
+
+function go-nodejs { 
+    cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs" 
+}
+
+function go-esmodules { 
+    cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs-esmodules" 
+}
+``
+
+Then simply use:
+- `go-frontend`
+- `go-nodejs` 
+- `go-esmodules`
+
+### From Current Directory
+If you're already in the `unit_tets` folder, you can use relative paths:
+
+``bash
+cd "code\basic-testing-frontend"
+cd "code\basic-testing-nodejs"
+cd "code\basic-testing-nodejs-esmodules"
+``
