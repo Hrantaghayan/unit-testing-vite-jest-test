@@ -193,12 +193,83 @@ expect(() => badFunc()).toThrow("Some error message");
 
 ## 🎓 Learning Resources
 
-📚 [Official Course Page](https://acad.link/testing)
-📘 [Vitest Docs](https://vitest.dev)
+📚 [Official Course Page](https://acad.link/testing)  
+📘 [Vitest Docs](https://vitest.dev)  
 📘 [Jest Docs](https://jestjs.io)
+
+---
+
+## 🗂️ Quick Navigation Commands
+
+To quickly navigate to the three main project directories in this repository:
+
+### 🎨 Frontend Testing Project
+```bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-frontend"
+```
+
+### 🔧 Node.js Testing Project  
+```bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs"
+```
+
+### 📦 ES Modules Testing Project
+```bash
+cd "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs-esmodules"
+```
+
+### ⚡ PowerShell Shortcuts
+Create these functions in your PowerShell profile (`$PROFILE`) for instant navigation:
+
+```powershell
+function goto-frontend { 
+    Set-Location "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-frontend" 
+}
+
+function goto-nodejs { 
+    Set-Location "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs" 
+}
+
+function goto-esmodules { 
+    Set-Location "c:\Users\Asus\Desktop\unit_tets\code\basic-testing-nodejs-esmodules" 
+}
+```
+
+Then simply use:
+- `goto-frontend`
+- `goto-nodejs` 
+- `goto-esmodules`
+
+### 📁 Relative Paths
+If you're already in the `unit_tets` directory:
+
+```bash
+cd "code\basic-testing-frontend"
+cd "code\basic-testing-nodejs"  
+cd "code\basic-testing-nodejs-esmodules"
+```
+
+---
+
+## 🚀 Getting Started Quick Guide
+
+1. **Clone or download** this repository
+2. **Choose a project** from the navigation commands above
+3. **Install dependencies**: `npm install`
+4. **Run tests**: `npm test`
+5. **Start coding** and testing! 🧪
 
 ---
 
 Happy Testing! 🚀
 
 > *"Tests not only prevent bugs—they document and guide your code's behavior."*
+
+---
+
+## 📝 Additional Notes
+
+- Each project folder contains its own `package.json` with specific test configurations
+- Use `npm run test:watch` for continuous testing during development
+- Check the individual project README files for specific instructions
+- Don't forget to commit your test files alongside your code!
