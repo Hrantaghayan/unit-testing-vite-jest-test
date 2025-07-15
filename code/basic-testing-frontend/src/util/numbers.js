@@ -7,6 +7,7 @@ export function transformToNumber(value) {
 export function cleanNumbers(numberValues) {
   const numbers = [];
   for (const numberInput of numberValues) {
+    debugger
     validateStringNotEmpty(numberInput);
     const number = transformToNumber(numberInput);
     validateNumber(number);
